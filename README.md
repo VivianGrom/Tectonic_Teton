@@ -1,38 +1,54 @@
-## Teton Fault Landscape Evolution Model (LEM) Notebook
+## Teton Fault Landscape Evolution Model (LEM) Notebooks
+Authors:
+- Bavojdan, Aysan
+- Grom, Vivian
+- Hoskins, Anthony
+- Lee, Chohee
+- Morris, Matthew
+- Oliveira, Pedro
+Preece, Madison
 
 ### Overview
-This notebook was developed as part of the Earth Surface Processes Institute (ESPIn) to demonstrate the use of Digital Elevation Model (DEM) data and synthetic data in Landscape Evolution Models (LEMs). The case study focuses on the Teton Fault in Wyoming, providing insights into topographic analysis, landscape dynamics, and numerical modeling of fault-driven processes.
+This project consists of two notebooks developed as part of the Earth Surface Processes Institute (ESPIn) to explore Digital Elevation Model (DEM) data and synthetic landscape models. The notebooks focus on the Teton Fault in Wyoming and provide a comprehensive exercise for students, including those who cannot participate in fieldwork.
+
+### Notebooks
+1. **Teton_part1**:
+   - **Purpose**: To run experiments using real DEM data from the Teton Fault.
+
+2. **Teton_part2**:
+   - **Purpose**: To run a synthetic landscape evolution model using imported field measurements.
 
 ### Purpose
-This notebook is an excellent exercise for students, especially those who cannot attend fieldwork, offering a virtual environment to explore real-world geological processes. By using this tool, students can analyze the Teton Fault's catchment topography, simulate landscape evolution, and compare natural observations with synthetic data, all from the classroom.
-
-### Features
-- Topographic Analysis: Includes tools to extract channel longitudinal profiles, analyze channel steepness, and calculate channel chi.
-- Numerical Modeling: Simulates landscape evolution based on stream power erosion and diffusion processes.
-- Fieldwork Alternative: Designed as a substitute for field-based exercises, providing an immersive learning experience.
-- Homework Assignment: The notebook contains a homework component, allowing students to apply what they've learned by interpreting data and presenting findings.
+These notebooks provide an opportunity for students to engage in landscape evolution modeling, offering an alternative for those unable to attend fieldwork. By comparing DEM-derived data with synthetic models, students gain practical experience in topographic analysis and model evaluation.
 
 ### Learning Outcomes
-- Understand and apply topographic analysis techniques using DEMs.
-- Simulate and evaluate landscape evolution using numerical models.
-- Compare synthetic landscape models to natural observations.
-- Develop critical thinking by completing the provided homework assignment.
+- Analyze and interpret DEM data using landscape evolution models.
+- Simulate and evaluate synthetic landscapes against real-world observations.
+- Develop critical thinking by comparing real and synthetic landscape models.
+- Gain hands-on experience with landscape modeling tools and techniques.
 
 ### How to Use
-1. Set Up: Follow the instructions in the notebook to download the necessary DEM data from OpenTopography using the provided API.
-2. Run the Notebook: Step through each section, following the instructions to perform the topographic analysis and run the simulations.
-3. Homework: Complete the homework exercise by analyzing specific datasets and answering questions on landscape evolution processes.
+1. **Teton_part1**:
+   - Download and set up the DEM data using the provided instructions.
+   - Run the simulations and analyze the results as described.
+   - Complete the provided tasks to understand the real-world topographic features.
+
+2. **Teton_part2**:
+   - Import field measurements and set up the synthetic landscape model.
+   - Perform the simulations and compare the results with the DEM data.
+   - Analyze the differences and draw conclusions based on the model comparisons.
 
 ### Requirements
 - Python 3.x
 - Landlab
 - Jupyter Notebook
 - Matplotlib, NumPy, Pandas
+- OpenTopography API access
 
 ### Homework Assignment
-The homework included in this notebook asks students to:
-- Analyze the Teton Fault's topography using DEM data.
-- Compare the results with the synthetic model output.
-- Interpret the results and discuss the implications for fault-driven landscape evolution.
-- Submit a brief report summarizing their findings.
+3. Extra: **Steady_State_HW**:    
+    Tasks:
+    - Load a DEM and run it to a steady state using a landscape evolution model.
+    - Calculate and visualize the mean elevation and erosion rates for the DEM.
+    - Your Task: Load the synthetic landscape and compare it with the DEM.
 
