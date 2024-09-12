@@ -6,7 +6,7 @@ Authors:
 - Lee, Chohee
 - Morris, Matthew
 - Oliveira, Pedro
-Preece, Madison
+- Preece, Madison
 
 ### Overview
 This project consists of two notebooks developed as part of the Earth Surface Processes Institute (ESPIn) to explore Digital Elevation Model (DEM) data and synthetic landscape models. The notebooks focus on the Teton Fault in Wyoming and provide a comprehensive exercise for students, including those who cannot participate in fieldwork.
